@@ -3,9 +3,13 @@
 <head>
   <style>
 
+
     body {
       padding-top: 40px;
       padding-bottom: 40px;
+      background-color: aliceblue;
+      justify-content: center;
+
     }
 
     .banner {
@@ -21,28 +25,36 @@
     }
 
     .social-icons a {
-      color: #fffffe;
       text-decoration: none;
+      color:darkblue
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      color:cadetblue
     }
 
     .link {
       display: flex;
       align-items: center;
       padding: 5px;
-      justify-content: space-evenly
+      background-color:powderblue;
+      justify-content:center
     }
 
     .link a {
-      color: #001e1d;
       text-decoration: none;
-      text-align: center
+      text-align: center;
+      color:cornflowerblue;
+      flex-grow: 1;
     }
 
     .items {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      max-width: 640 px;
+      max-width: 640px;
       flex-grow: 1;
     }
 
@@ -54,11 +66,11 @@
     }
 
     .name {
-      color: black;
       text-align: center;
       align-items: center;
       display: flex;
       justify-content: center;
+      color:cornflowerblue
     }
 
   </style>
@@ -78,24 +90,24 @@
     <h1> Martina</h1>
   </div>
 
-<p>
-  
-</p>
-
-  <div class = "link">
-    <h3 target="_blank" href="https://www.linkedin.com/in/martina.insulla/"> LinkedIn
-      <i class="fa-brands fa-linkedin-in"></i> </h3>    
-  </div>
 
 <div class = "link">
-    <h3 href="https://canvas.uchicago.edu//" target="_blank">
-      Canvas     <i class="fa-solid fa-laptop-file"></i> </h3>
-  </div>
+    <a href="https://www.linkedin.com/in/martina.insulla/" target="_blank">
+      LinkedIn
+      <i class="fa-brands fa-linkedin-in"></i> </a>    
+</div>
 
 <div class = "link">
-    <h3 href="https://outlook.office.com/mail/" target="_blank">
-      Outlook <i class="fa-regular fa-envelope"></i> </h3>
-  </div>
+    <a href="https://canvas.uchicago.edu//" target="_blank">
+      Canvas 
+      <i class="fa-solid fa-laptop-file"></i> </a>
+</div>
+
+<div class = "link">
+    <a href="https://outlook.office.com/mail/" target="_blank">
+      Outlook 
+      <i class="fa-regular fa-envelope"></i> </a>
+</div>
 
 
 
